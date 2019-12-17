@@ -2122,17 +2122,17 @@ p {
 	margin-right: 30px;
 	margin-top: 30px;
 }
-#title {
-	float: left;
-	margin: auto;
-	/*margin-right: 30px;
-	margin-top: 30px;*/
-	color: white;
-	font-size: 24px;
+.logo-box {
 	display: block;
-	margin-top: 2px;
 }
-@media screen and (max-width: 639px) {
+#main-logo {
+	float: left;
+	background: url(https://pinnock-roadside.000webhostapp.com/public/images/logo.png) no-repeat;
+    height: 65px;
+    width: 65px;
+	display: block;
+}
+/*@media screen and (max-width: 639px) {
 	#title {
 		font-size: 18px;
 	}
@@ -2141,7 +2141,7 @@ p {
 	#title {
 		font-size: 14px;
 	}
-}
+}*/
 
 header.promotion #logo {
 	margin-top: 0px;
@@ -2156,7 +2156,7 @@ header.promotion #logo {
     padding: 75px 4% 75px 4%;
 }
 header .container {
-    padding-top: 11px;
+    padding-top: 0px;
 }
 .landing .container {
 	padding-top: 90px;
@@ -2225,7 +2225,7 @@ header .phone {
 }
 header.promotion .phone {
     float: right;
-    margin-top: 2px;
+    margin-top: 20px;
 }
 .grid.halves .item {
 	float: left;
