@@ -18,6 +18,8 @@ Various landing pages were also developed and A/B tested using Google Analytics,
 ### Technologies Used
 - HTML5
 - CSS5
+- Bootstrap 4
+- Font Awesome 4.5.0
 - Mobile-First
 - Responsive Design
 - Google Tag Manager
