@@ -2024,7 +2024,7 @@ p {
     margin-top: 5px;
     margin-bottom: -500px;
     float: right;
-    background: url('../../public/images/service-images/bg_blue-narrow.png') no-repeat center bottom;
+    background: url('../../public/images/bg_blue-narrow.png') no-repeat center bottom;
     border: 0;
 }
 #callForm ul, 
@@ -2299,7 +2299,7 @@ header.promotion .phone {
 	#hero {
 		z-index: 99;
 		height: 575px;
-		background: url('../../public/images/service-images/roadside-service-help.jpg') no-repeat center -30px;
+		background: url('../../public/images/roadside-service-help.jpg') no-repeat center -30px;
 	}
 	#hero.landing .container {
 		padding-top: 50px;
@@ -2590,7 +2590,7 @@ header.promotion .phone {
 }
 #hero {
 	height: 615px;
-    background: url('../../public/images/service-images/roadside-service-help.jpg') no-repeat top center;
+    background: url('../../public/images/roadside-service-help.jpg') no-repeat top center;
 }
 section {
     overflow: hidden;
