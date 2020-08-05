@@ -5,7 +5,7 @@
 ### Screenshot:
   ![Screenshot](public/images/homepage.png)
   
-#### [Link to Live Site](https://pinnock-roadside.000webhostapp.com/)  
+#### [Link to Live Site](http://pinnock-roadside.epizy.com/)  
 #### [Link to Repo](https://github.com/Arathurs/Roadside_Assistance_Site.git)  
 
 ### About the Project
