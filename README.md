@@ -1,12 +1,10 @@
 ## Pinnock Roadside Assistance | Emergency Roadside Assistance Service
 
-
-
 ### Screenshot:
   ![Screenshot](public/images/homepage.png)
   
 #### [Link to Live Site](http://pinnock-roadside.epizy.com/)  
-#### [Link to Repo](https://github.com/Arathurs/Roadside_Assistance_Site.git)  
+#### [Link to Repo](https://github.com/Arathurs/Roadside_Assistance_Site.git/)  
 
 ### About the Project
 
