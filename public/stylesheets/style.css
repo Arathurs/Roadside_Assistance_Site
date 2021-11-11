@@ -1857,7 +1857,7 @@ h3 {
 	text-align: center;
 }
 @media screen and (max-width: 1023px) {
-	1, h2, h2.large, h3, h4 {
+	h1, h2, h2.large, h3, h4 {
 		font: bold 40px/48px ProximaNova, arial, sans-serif;
 		margin-bottom: 30px;
 		text-align: center;
@@ -1869,7 +1869,7 @@ h3 {
 	}
 }
 @media screen and (max-width: 639px) {
-	1, h2, h2.large, h3, h4 {
+	h1, h2, h2.large, h3, h4 {
 		font: bold 28px/36px ProximaNova, arial, sans-serif;
 		margin-bottom: 20px;
 		text-align: center;
@@ -1904,7 +1904,7 @@ nav li a:visited {
 }
 header {
     background: transparent;
-    color: #666;*/
+    color: #666;
 }
 header.promotion {
 	background: #0c5075;
@@ -1916,7 +1916,7 @@ section ul {
 }
 section li {
     text-align: left;
-    background: url(../media/bullet-light.png) no-repeat left top;
+    background: url('../media/bullet-light.png') no-repeat left top;
     line-height: 22px;
     padding: 2px 0 18px 32px;
 }
@@ -1992,14 +1992,6 @@ p {
     color: #333;
     text-align: center;
 }
-/*.landing h2,
-.benefits h2 {
-	font: bold 28px/36px ProximaNova, arial, sans-serif;
-    margin-bottom: 30px;
-    color: #333;
-    text-align: center;
-	font-size: 30px;
-}*/
 #hero h4 {
     font: normal 24px/30px ProximaNova, arial, sans-serif;
     margin-bottom: 40px;
@@ -2008,7 +2000,6 @@ p {
 #hero h4, #banner h4 {
     font: normal 28px/34px ProximaNovaLight, arial, sans-serif;
     margin-bottom: 40px;
-    /* color: #333; */
 }
 #hero .col.left img {
     width: 90%;
@@ -2024,8 +2015,9 @@ p {
     margin-top: 5px;
     margin-bottom: -500px;
     float: right;
-    background: url('../../public/images/bg_blue-narrow.png') no-repeat center bottom;
+    background: url('../images/bg_blue-narrow.png') no-repeat center bottom;
     border: 0;
+    color: #fff;
 }
 #callForm ul, 
 #callForm li {
@@ -2051,7 +2043,6 @@ p {
     text-transform: uppercase;
     color: #fff;
     background: #f7941d;
-    /*background-image: url('../media/bullet-white.png');*/
     background-position: right 12px;
     background-repeat: no-repeat;
     -webkit-border-radius: 2px;
@@ -2071,22 +2062,15 @@ p {
 #callForm .formField span {
 	display: block;
     width: 95%;
-    /*text-indent: 50px;*/
     padding: 11px 5% 10px 0;
     margin: 0 0 16px 0;
     height: 24px;
     border: 0;
     outline: none;
+    box-shadow: none;
     -moz-box-shadow: none;
     font: normal 24px/26px ProximaNova, arial, sans-serif;
     color: #fff;
-    /*background-color: #59aad0;
-    background-color: rgba(172, 240, 246, 0.25);
-    background-repeat: no-repeat;
-    background-position: 5px 3px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;*/
     -webkit-transition: all .1s ease;
     -moz-transition: all .1s ease;
     -o-transition: all .1s ease;
@@ -2098,51 +2082,16 @@ p {
     color: #fff;
     margin: 25px 0 0 0;
 }
-#logo {
-    float: left;
-    display: block;
-    width: 227px;
-    height: 33px;
-    background: url('../../public/images/logos/sf-logo-02.png') no-repeat left top;
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransfrom.Microsoft. Alpha(Opacity=100)"; filter: alpha(opacity = 100);
-}
-#logo {
-    float: left;
-    width: 160px;
-    height: 35px;
-    text-indent: -5000px;
-    font-size: 0;
-    background: url('../../public/images/logos/sf-logo-02.png') no-repeat left top;
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransfrom.Microsoft. Alpha(Opacity=100)"; filter: alpha(opacity = 100);
-	-webkit-background-size: 160px 35px;
-    -moz-background-size: 160px 35px;
-    background-size: 160px 35px;
-	margin-right: 30px;
-	margin-top: 30px;
-}
 .logo-box {
 	display: block;
 }
 #main-logo {
 	float: left;
-	background: url(https://pinnock-roadside.000webhostapp.com/public/images/logo.png) no-repeat;
+	background: url('../images/logo.png') no-repeat;
     height: 65px;
     width: 65px;
 	display: block;
 }
-/*@media screen and (max-width: 639px) {
-	#title {
-		font-size: 18px;
-	}
-}
-@media screen and (max-width: 350px) {
-	#title {
-		font-size: 14px;
-	}
-}*/
-
 header.promotion #logo {
 	margin-top: 0px;
 }
@@ -2233,7 +2182,6 @@ header.promotion .phone {
 	padding: 0 2.5%;
 	margin-bottom: 30px;
 	text-align: left;
-	display: inline-block;
 	height: 120px;
 }
 .grid.thirds .item.benefit {
@@ -2299,12 +2247,13 @@ header.promotion .phone {
 	#hero {
 		z-index: 99;
 		height: 575px;
-		background: url('../../public/images/roadside-service-help.jpg') no-repeat center -30px;
+		background: url('../images/roadside-service-help.jpg') no-repeat center -30px;
 	}
 	#hero.landing .container {
 		padding-top: 50px;
 	}
-	#hero .container, #banner .container {
+	#hero .container, 
+  #banner .container {
 		padding-top: 140px;
 		padding-bottom: 30px;
 	}
@@ -2319,7 +2268,6 @@ header.promotion .phone {
 	#hero h4 {
 		font: normal 20px/26px ProximaNova, arial, sans-serif;
 		margin-bottom: 30px;
-		/* padding: 0 30px; */
 	}
 	#hero.landing .col.left img {
 		width: 100%;
@@ -2401,14 +2349,6 @@ header.promotion .phone {
 	#open-button,
 	#close-button {
 		float: right;
-		/*width: 22px;
-		height: 19px;
-		font-size: 0;
-		text-indent: -5000px;
-		margin-top: 3px;
-		background-image: url('../media/nav_open.png');
-		background-position: left top;
-		background-repeat: no-repeat;*/
 	}
 }
 @media screen and (max-width: 639px) {
@@ -2590,7 +2530,7 @@ header.promotion .phone {
 }
 #hero {
 	height: 615px;
-    background: url('../../public/images/roadside-service-help.jpg') no-repeat top center;
+    background: url('../images/roadside-service-help.jpg') no-repeat top center;
 }
 section {
     overflow: hidden;
